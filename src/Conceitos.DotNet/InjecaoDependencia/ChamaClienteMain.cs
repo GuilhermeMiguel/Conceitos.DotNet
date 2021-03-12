@@ -21,7 +21,7 @@ namespace Conceitos.DotNet.InjecaoDependencia
 
         */
 
-        public static void Main(string[] args)
+        public static void MainTeste(string[] args)
         {
             var clienteConstructor = new ClienteConstructorInjection(new EnviaEmailService());
 
